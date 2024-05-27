@@ -85,6 +85,10 @@
   </tr>
 </table>
 
+## Profile Count
+ >  ![Visitor Count](https://profile-counter.glitch.me/Saurabh-7973/count.svg)
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Saurabh-7973&repo=snapdrop)]([https://github.com/anuraghazra/github-readme-stats](https://github.com/Saurabh-7973/snapdrop))
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs?username=Saurabh-7973&layout=compact&langs_count=8&card_width=320)](https://github.com/anuraghazra/convoychat)
+## Top Languages
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Saurabh-7973&layout=compact&langs_count=8&card_width=320)](https://github.com/Saurabh-7973)
+
+
