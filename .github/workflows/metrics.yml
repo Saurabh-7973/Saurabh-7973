@@ -1,0 +1,48 @@
+name: Metrics
+
+# Generates a static profile-metrics SVG via lowlighter/metrics action and
+# commits it to the repo. The README can reference the static file, so it can
+# NEVER go down (no Vercel rate limits, no third-party outages).
+#
+# This is the bulletproof approach FAANG engineers use for profile stats.
+#
+# OPTIONAL — disabled by default. To enable:
+# 1. Create a Personal Access Token (classic) at:
+#    https://github.com/settings/tokens — needs read:user + repo scopes
+# 2. Add it as a repository secret named METRICS_TOKEN
+# 3. Set repo variable METRICS_ENABLED=true (Settings -> Secrets and variables
+#    -> Actions -> Variables tab)
+# 4. Optionally uncomment the <img src="github-metrics.svg"> line in README.md
+#    once the file is generated.
+
+on:
+  schedule:
+    - cron: "0 3 * * *"  # Daily 03:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  metrics:
+    if: vars.METRICS_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate metrics
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: Saurabh-7973
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Kolkata
+          plugin_lines: yes
+          plugin_topics: yes
+          plugin_topics_limit: 12
+          plugin_topics_mode: icons
+          plugin_languages: yes
+          plugin_languages_indepth: yes
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_sections: most-used
+          plugin_languages_limit: 8
+          filename: github-metrics.svg

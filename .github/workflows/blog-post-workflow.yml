@@ -1,0 +1,33 @@
+name: Latest blog post workflow
+
+# Auto-fetches latest Medium articles via RSS and updates README.
+# Keeps the profile looking active to AI sourcing agents and humans.
+# Runs weekly + on manual dispatch + on push to main.
+
+on:
+  schedule:
+    - cron: "0 2 * * 1"  # Every Monday 02:00 UTC (07:30 IST)
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme-with-blog:
+    name: Update README with latest Medium posts
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Pull in Medium posts
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://medium.com/feed/@Saurabh7973"
+          max_post_count: 5
+          comment_tag_name: "BLOG-POST-LIST"
+          template: "- [$title]($url) <sub>$date</sub>"
+          date_format: "mmm d, yyyy"
+          commit_message: "chore: refresh latest Medium posts"

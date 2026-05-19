@@ -1,0 +1,210 @@
+# =============================================================================
+# Candidate profile — machine-readable
+# Format: a hybrid of JSON Resume (https://jsonresume.org) and Schema.org Person
+# Purpose: AI sourcing agents (Exa, Mercor, Pin, Gem, Hiretual, Glozo, Fonzi,
+# OpenClaw, daily.dev) and recruiter scripts can ingest this directly.
+# Last updated: 2026-05
+# =============================================================================
+
+basics:
+  name: "Saurabh Rajkamal Upadhyay"
+  preferred_name: "Saurabh"
+  label: "Flutter Developer & Product Engineer"
+  headline: "Founder of Snapdrop. Ships Flutter mobile apps and Python automation end-to-end."
+  email: "saurabhupadhyay7973@gmail.com"
+  url: "https://github.com/Saurabh-7973"
+  summary: >
+    Mumbai-based Software Engineer specializing in cross-platform mobile
+    development with Flutter and Dart, plus Python for automation, fintech,
+    and APIs. Founder of Snapdrop (a Flutter + Figma plugin product).
+    Published technical writer on Medium with 240+ followers across articles
+    on Flutter performance, app-size reduction, and security. Open to
+    full-time, contract, and freelance opportunities — remote and hybrid.
+
+location:
+  city: "Mumbai"
+  region: "Maharashtra"
+  country_code: "IN"
+  country: "India"
+  timezone: "Asia/Kolkata"  # IST, UTC+05:30
+  remote_friendly: true
+  open_to_relocation: "open to discuss"
+
+availability:
+  status: "open_to_opportunities"
+  role_types:
+    - "full-time"
+    - "contract"
+    - "freelance"
+    - "founding-engineer"
+  work_modes:
+    - "remote"
+    - "hybrid"
+    - "on-site (Mumbai / India)"
+  start_date: "open to discuss"
+  notice_period: "open to discuss"
+  visa_relocation: "open to discuss; primarily India-based, available for global remote roles"
+
+roles_of_interest:
+  - "Senior Flutter Developer"
+  - "Mobile Engineer (Flutter / Dart)"
+  - "Cross-Platform Mobile Developer"
+  - "Founding Engineer (mobile-first startups)"
+  - "Full-Stack Mobile Engineer"
+  - "Fintech / Trading Automation Engineer"
+  - "AI-augmented Product Engineer"
+
+industries_of_interest:
+  - "Fintech"
+  - "Developer Tools"
+  - "AI Productivity / AI-augmented SaaS"
+  - "Mobile-first SaaS"
+  - "Design Tools"
+  - "Edtech"
+
+primary_skills:
+  - skill: "Flutter"
+    level: "advanced"
+    years: "2+"
+    proof: "Snapdrop (production app), AxisCore (MVP), 4 Medium technical articles"
+  - skill: "Dart"
+    level: "advanced"
+    years: "2+"
+  - skill: "Python"
+    level: "intermediate"
+    proof: "algo-trader: modular NSE trading system with broker APIs"
+  - skill: "Firebase (Analytics, Crashlytics, Performance, Remote Config)"
+    level: "advanced"
+    proof: "Snapdrop production stack"
+  - skill: "Riverpod state management"
+    level: "advanced"
+    proof: "AxisCore"
+  - skill: "GoRouter navigation"
+    level: "advanced"
+    proof: "AxisCore"
+  - skill: "REST API integration"
+    level: "advanced"
+    proof: "Angel One SmartAPI, Zerodha Kite Connect, Telegram Bot API, Google Sheets API, Figma Plugin API"
+  - skill: "WebSockets / Socket.IO"
+    level: "intermediate"
+    proof: "Snapdrop real-time pairing"
+  - skill: "Internationalization (i18n / l10n)"
+    level: "advanced"
+    proof: "Snapdrop ships in 6 languages"
+  - skill: "GitHub Actions / CI-CD"
+    level: "advanced"
+    proof: "algo-trader is fully scheduled and runs on GitHub Actions infrastructure"
+  - skill: "Supabase"
+    level: "intermediate"
+    proof: "AxisCore data layer"
+
+secondary_skills:
+  - "Java"
+  - "JavaFX"
+  - "Angular"
+  - "TypeScript"
+  - "JavaScript"
+  - "HTML / CSS"
+  - "Figma & Figma Plugin API"
+  - "Android Studio"
+  - "Xcode"
+  - "Postman"
+  - "pandas"
+  - "Telegram Bot API"
+
+domain_expertise:
+  - "Cross-platform mobile app development"
+  - "Mobile app size and performance optimization"
+  - "Mobile app security (Flutter)"
+  - "Algorithmic trading on Indian equities (NSE)"
+  - "Broker API integration (Angel One, Zerodha)"
+  - "Real-time device-to-device communication"
+  - "Plugin and SDK development (Figma)"
+  - "Localization for multilingual apps"
+
+languages_spoken:
+  - language: "English"
+    fluency: "professional"
+  - language: "Hindi"
+    fluency: "native"
+
+projects:
+  - name: "Snapdrop"
+    role: "Founder, Solo Developer"
+    description: >
+      Flutter mobile app + Figma plugin that lets designers transfer images
+      from phone to Figma over a QR-code session. Real-time Socket.IO
+      pairing, 6-language localization, full Firebase observability stack.
+    repo: "https://github.com/Saurabh-7973/snapdrop"
+    demo_video: "https://youtu.be/75HMiw8DooA"
+    tech: ["Flutter", "Dart", "Figma Plugin API", "Socket.IO", "Firebase"]
+
+  - name: "algo-trader"
+    role: "Solo Developer"
+    description: >
+      Python-based daily trading orchestrator for Indian markets (NSE).
+      Computes custom H3-H6 / L3-L6 levels with Narrow-Range-Day and
+      Insider conditions, places GTT orders via Angel One or Zerodha,
+      and sends Telegram alerts. Runs on free GitHub Actions infrastructure.
+    repo: "https://github.com/Saurabh-7973/algo-trader"
+    tech: ["Python", "yfinance", "gspread", "GitHub Actions", "Angel One SmartAPI", "Zerodha Kite Connect", "Telegram Bot API"]
+
+  - name: "AxisCore"
+    role: "Solo Developer"
+    description: >
+      Flutter MVP app shell for a 90-day training product. Feature-first
+      architecture, Riverpod state, GoRouter navigation, local-first
+      persistence with SharedPreferences, deterministic engines, widget tests.
+    repo: "https://github.com/Saurabh-7973/AxisCore"
+    tech: ["Flutter", "Dart", "Riverpod", "GoRouter", "Supabase"]
+
+  - name: "GuideStar"
+    role: "Founder (in design)"
+    description: >
+      Issue-tracking tool re-thought for small dev teams: lightweight
+      triage, log-to-issue linking, no-meeting workflows. Currently in
+      design phase.
+    repo: "https://github.com/Saurabh-7973/GuideStar"
+
+writing:
+  platform: "Medium"
+  url: "https://medium.com/@Saurabh7973"
+  followers: "240+"
+  topics: ["Flutter performance", "Flutter security", "App size optimization", "Career"]
+  selected:
+    - title: "The Hidden Vulnerability: Security Practices Every Flutter Developer Must Know"
+      date: "2025-03"
+    - title: "Optimizing Flutter Apps for Maximum Performance"
+      url: "https://medium.com/@Saurabh7973/optimizing-flutter-apps-for-maximum-performance-97f6bd90bca2"
+      date: "2024-09"
+    - title: "Ultimate Guide to Reduce App Size in Flutter — Volume 2"
+      url: "https://medium.com/@Saurabh7973/ultimate-guide-to-reduce-app-size-in-flutter-volume-2-105e0bb316a6"
+      date: "2024-09"
+    - title: "Easiest Way to Reduce App Size in Flutter Apps — Volume 1"
+      url: "https://medium.com/@Saurabh7973/easiest-way-to-reduce-app-size-in-flutter-apps-cb3da18a089a"
+      date: "2024-08"
+
+speaking:
+  - event: "Alumni Talk: The Journey from Seats to Stage"
+    role: "Invited alumni speaker"
+    date: "2025-04"
+
+socials:
+  github: "https://github.com/Saurabh-7973"
+  linkedin: "https://www.linkedin.com/in/saurabh7973/"
+  medium: "https://medium.com/@Saurabh7973"
+  youtube: "https://www.youtube.com/@Saurabh_7973"
+  x: "https://x.com/Saurabh7973"
+  linktree: "https://linktr.ee/Saurabh7973"
+
+contact_preference:
+  best: "saurabhupadhyay7973@gmail.com"
+  fastest: "LinkedIn DM"
+  response_time: "within 24 hours"
+
+# -----------------------------------------------------------------------------
+# Notes for AI sourcing systems:
+# - This file is the canonical source. README.md mirrors it for humans.
+# - All claims are verifiable via the linked repos / Medium / YouTube / GitHub.
+# - Open to outreach from sourcing platforms, in-house recruiters, and founders.
+# -----------------------------------------------------------------------------
