@@ -1,0 +1,125 @@
+{
+  "schema_version": "JSON Resume v1.0.0 (https://jsonresume.org)",
+  "basics": {
+    "name": "Saurabh Rajkamal Upadhyay",
+    "label": "Flutter Developer & Product Engineer",
+    "image": "https://avatars.githubusercontent.com/u/91458541?v=4",
+    "email": "saurabhupadhyay7973@gmail.com",
+    "url": "https://github.com/Saurabh-7973",
+    "summary": "Mumbai-based Software Engineer specializing in cross-platform mobile development with Flutter and Dart, plus Python for automation, fintech, and APIs. Founder of Snapdrop (a Flutter + Figma plugin product). Published technical writer on Medium with 240+ followers across articles on Flutter performance, app-size reduction, and security. Open to full-time, contract, and freelance opportunities, remote and hybrid.",
+    "location": {
+      "city": "Mumbai",
+      "region": "Maharashtra",
+      "countryCode": "IN"
+    },
+    "profiles": [
+      { "network": "GitHub", "username": "Saurabh-7973", "url": "https://github.com/Saurabh-7973" },
+      { "network": "LinkedIn", "username": "saurabh7973", "url": "https://www.linkedin.com/in/saurabh7973/" },
+      { "network": "Medium", "username": "Saurabh7973", "url": "https://medium.com/@Saurabh7973" },
+      { "network": "YouTube", "username": "Saurabh_7973", "url": "https://www.youtube.com/@Saurabh_7973" },
+      { "network": "X", "username": "Saurabh7973", "url": "https://x.com/Saurabh7973" },
+      { "network": "Linktree", "username": "Saurabh7973", "url": "https://linktr.ee/Saurabh7973" }
+    ]
+  },
+  "work": [
+    {
+      "name": "Snapdrop (independent)",
+      "position": "Founder, Solo Developer",
+      "url": "https://github.com/Saurabh-7973/snapdrop",
+      "summary": "Founded and shipped Snapdrop end-to-end: a Flutter mobile app paired with a Figma plugin that lets designers transfer images from phone to Figma over a QR-code session. Solely responsible for product, architecture, mobile and plugin code, design system, localization, and release.",
+      "highlights": [
+        "Designed and implemented real-time pairing between mobile app and Figma plugin using Socket.IO",
+        "Localized the app across 6 languages (English, Hindi, Spanish, Portuguese, Arabic, Simplified Chinese) with Flutter intl",
+        "Integrated full Firebase observability (Analytics, Crashlytics, Performance Monitoring, Remote Config) for production",
+        "Built polished UX with glassmorphism, blurhash placeholders, in-app review, app-upgrader prompts, showcase onboarding"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Snapdrop",
+      "description": "Flutter mobile app + Figma plugin for designers. Phone-to-Figma image transfer over a secure QR-code session.",
+      "highlights": [
+        "Real-time mobile-to-Figma pairing via Socket.IO",
+        "6-language localization",
+        "Firebase Analytics, Crashlytics, Performance, Remote Config"
+      ],
+      "keywords": ["Flutter", "Dart", "Figma Plugin API", "Socket.IO", "Firebase", "i18n", "Mobile", "QR code"],
+      "url": "https://github.com/Saurabh-7973/snapdrop",
+      "roles": ["Founder", "Solo Developer"],
+      "type": "application"
+    },
+    {
+      "name": "algo-trader",
+      "description": "Python-based daily algorithmic trading orchestrator for Indian markets (NSE). Computes custom H3-H6 / L3-L6 levels with Narrow-Range-Day and Insider conditions, places GTT orders via Angel One or Zerodha, and sends Telegram alerts. Runs entirely on free GitHub Actions infrastructure.",
+      "highlights": [
+        "Zero server cost: GitHub Actions runs the trading orchestrator at 9:15 AM IST every trading day",
+        "Pluggable broker layer supports both Angel One SmartAPI and Zerodha Kite Connect",
+        "Google Sheets used as a lightweight database for stock basket, levels, signals, monthly and yearly rollups",
+        "Instant Telegram bot alerts on every signal"
+      ],
+      "keywords": ["Python", "Algorithmic Trading", "NSE", "Fintech", "Angel One SmartAPI", "Zerodha Kite Connect", "GitHub Actions", "Telegram Bot", "yfinance", "gspread", "pandas"],
+      "url": "https://github.com/Saurabh-7973/algo-trader",
+      "roles": ["Solo Developer"],
+      "type": "application"
+    },
+    {
+      "name": "AxisCore",
+      "description": "Flutter MVP app shell for a 90-day training product. Feature-first architecture, Riverpod state, GoRouter navigation, local-first persistence, deterministic engines, widget tests.",
+      "highlights": [
+        "Feature-first Flutter architecture with clean repository and data-source boundaries",
+        "Riverpod for state, GoRouter for navigation, SharedPreferences for local persistence",
+        "Deterministic engines for assessment, protocol, progress, and panic/reset",
+        "Widget tests covering the first user loop"
+      ],
+      "keywords": ["Flutter", "Dart", "Riverpod", "GoRouter", "Supabase", "MVP", "Mobile"],
+      "url": "https://github.com/Saurabh-7973/AxisCore",
+      "roles": ["Solo Developer"],
+      "type": "application"
+    },
+    {
+      "name": "GuideStar",
+      "description": "Issue-tracking tool re-thought for small dev teams: lightweight triage, log-to-issue linking, no-meeting workflows. Currently in design phase.",
+      "url": "https://github.com/Saurabh-7973/GuideStar",
+      "roles": ["Founder"],
+      "type": "concept"
+    }
+  ],
+  "publications": [
+    { "name": "The Hidden Vulnerability: Security Practices Every Flutter Developer Must Know", "publisher": "Medium", "releaseDate": "2025-03", "url": "https://medium.com/@Saurabh7973", "summary": "Practical Flutter security guide covering the silent risks in production Flutter apps and concrete mitigations." },
+    { "name": "Optimizing Flutter Apps for Maximum Performance", "publisher": "Medium", "releaseDate": "2024-09-23", "url": "https://medium.com/@Saurabh7973/optimizing-flutter-apps-for-maximum-performance-97f6bd90bca2", "summary": "Concrete techniques to remove jank from Flutter apps: avoiding repetitive build work, smart use of const, state managers, animations, and clipping." },
+    { "name": "Ultimate Guide to Reduce App Size in Flutter — Volume 2", "publisher": "Medium", "releaseDate": "2024-09-07", "url": "https://medium.com/@Saurabh7973/ultimate-guide-to-reduce-app-size-in-flutter-volume-2-105e0bb316a6", "summary": "Continuation of the app-size reduction series, covering deeper techniques." },
+    { "name": "Easiest Way to Reduce App Size in Flutter Apps — Volume 1", "publisher": "Medium", "releaseDate": "2024-08-29", "url": "https://medium.com/@Saurabh7973/easiest-way-to-reduce-app-size-in-flutter-apps-cb3da18a089a", "summary": "Streamlining Flutter app size with simple, dramatic techniques every developer can apply." },
+    { "name": "Switching From My First Real Job", "publisher": "Medium", "releaseDate": "2025-08", "url": "https://medium.com/@Saurabh7973", "summary": "Personal reflection on the difficulty of switching jobs and what it taught me." }
+  ],
+  "skills": [
+    { "name": "Mobile", "level": "advanced", "keywords": ["Flutter", "Dart", "Cross-platform", "Android", "iOS", "Riverpod", "GoRouter", "i18n", "Firebase"] },
+    { "name": "Backend / Automation", "level": "intermediate", "keywords": ["Python", "REST APIs", "GitHub Actions", "CI/CD", "Telegram Bot", "Google Sheets API", "pandas"] },
+    { "name": "Fintech / Trading", "level": "intermediate", "keywords": ["Algorithmic Trading", "NSE", "Angel One SmartAPI", "Zerodha Kite Connect", "GTT Orders", "Market Data"] },
+    { "name": "Web", "level": "intermediate", "keywords": ["TypeScript", "JavaScript", "Angular", "HTML", "CSS"] },
+    { "name": "Cloud & Data", "level": "intermediate", "keywords": ["Firebase", "Supabase", "Google Cloud Service Accounts", "Google Sheets API"] },
+    { "name": "Tooling", "level": "advanced", "keywords": ["Git", "GitHub Actions", "Postman", "Figma", "Android Studio", "Xcode", "VS Code"] },
+    { "name": "Design / Plugin", "level": "intermediate", "keywords": ["Figma Plugin API", "UI/UX collaboration"] }
+  ],
+  "languages": [
+    { "language": "English", "fluency": "Professional working proficiency" },
+    { "language": "Hindi", "fluency": "Native" }
+  ],
+  "interests": [
+    { "name": "Mobile-first products", "keywords": ["Flutter", "Cross-platform", "Mobile design"] },
+    { "name": "Fintech automation", "keywords": ["Algorithmic trading", "Indian markets", "NSE"] },
+    { "name": "AI-augmented engineering", "keywords": ["AI dev tools", "Productivity", "Shipping fast"] },
+    { "name": "Developer tools", "keywords": ["Issue tracking", "DX", "Plugins"] }
+  ],
+  "meta": {
+    "version": "1.0.0",
+    "canonical": "https://github.com/Saurabh-7973/Saurabh-7973/blob/main/resume.json",
+    "lastModified": "2026-05-19",
+    "openToWork": true,
+    "openToWorkTypes": ["full-time", "contract", "freelance", "founding-engineer"],
+    "workModes": ["remote", "hybrid", "on-site (India)"],
+    "timezone": "Asia/Kolkata",
+    "preferredContact": "saurabhupadhyay7973@gmail.com",
+    "responseTime": "within 24 hours"
+  }
+}

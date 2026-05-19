@@ -103,9 +103,9 @@
 | **Languages spoken** | English (professional) · Hindi (native) |
 | **Public artifacts** | [Snapdrop](https://github.com/Saurabh-7973/snapdrop) · [algo-trader](https://github.com/Saurabh-7973/algo-trader) · [AxisCore](https://github.com/Saurabh-7973/AxisCore) · [Medium](https://medium.com/@Saurabh7973) · [YouTube demo](https://youtu.be/75HMiw8DooA) |
 | **Best contact** | [saurabhupadhyay7973@gmail.com](mailto:saurabhupadhyay7973@gmail.com) · [LinkedIn](https://www.linkedin.com/in/saurabh7973/) |
-| **Machine-readable profile** | [`candidate.yaml`](./candidate.yaml) *(JSON-Resume-style)* |
+| **Machine-readable profile** | [`resume.json`](./resume.json) *(JSON Resume v1.0.0)* · [`candidate.yaml`](./candidate.yaml) *(extended)* · [`RECRUITERS.md`](./RECRUITERS.md) *(one-page brief)* |
 
-> 🤖 **AI agent / automated sourcing tool?** Parse [`candidate.yaml`](./candidate.yaml) for structured fields. Schema.org `Person` JSON-LD is embedded as an HTML comment at the top of this file's source.
+> 🤖 **AI agent / automated sourcing tool?** Parse [`resume.json`](./resume.json) (official [JSON Resume v1.0.0](https://jsonresume.org)) or [`candidate.yaml`](./candidate.yaml). Schema.org `Person` JSON-LD is embedded as an HTML comment at the top of this file's source. Recruiters: see the focused [**one-page brief in `RECRUITERS.md`**](./RECRUITERS.md).
 
 ---
 
@@ -209,6 +209,15 @@ I write to consolidate what I learn. Topics range from squeezing performance out
 | Aug 2024 | [Easiest Way to Reduce App Size in Flutter Apps — Volume 1](https://medium.com/@Saurabh7973/easiest-way-to-reduce-app-size-in-flutter-apps-cb3da18a089a) | App-size optimization |
 | Aug 2025 | [Switching From My First Real Job](https://medium.com/@Saurabh7973) | Career reflection |
 | Apr 2025 | 🎤 *Alumni Talk: The Journey from Seats to Stage* — invited speaker | Speaking |
+
+### 🔄 Latest from my Medium *(auto-updated weekly)*
+
+<!-- BLOG-POST-LIST:START -->
+- [The Hidden Vulnerability: Security Practices Every Flutter Developer Must Know](https://medium.com/@Saurabh7973) <sub>Mar, 2025</sub>
+- [Optimizing Flutter Apps for Maximum Performance](https://medium.com/@Saurabh7973/optimizing-flutter-apps-for-maximum-performance-97f6bd90bca2) <sub>Sep 23, 2024</sub>
+- [Ultimate Guide to Reduce App Size in Flutter — Volume 2](https://medium.com/@Saurabh7973/ultimate-guide-to-reduce-app-size-in-flutter-volume-2-105e0bb316a6) <sub>Sep 7, 2024</sub>
+- [Easiest Way to Reduce App Size in Flutter Apps — Volume 1](https://medium.com/@Saurabh7973/easiest-way-to-reduce-app-size-in-flutter-apps-cb3da18a089a) <sub>Aug 29, 2024</sub>
+<!-- BLOG-POST-LIST:END -->
 
 → Read everything on [**Medium**](https://medium.com/@Saurabh7973)
 
