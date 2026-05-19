@@ -150,12 +150,7 @@ Issue tracking re-thought for small dev teams.
 
 ## ✍️ Writing <sub>· auto-updated weekly from [Medium](https://medium.com/@Saurabh7973)</sub>
 
-<!-- BLOG-POST-LIST:START -->
-- [The Hidden Vulnerability: Security Practices Every Flutter Developer Must Know](https://medium.com/@Saurabh7973) <sub>Mar, 2025</sub>
-- [Optimizing Flutter Apps for Maximum Performance](https://medium.com/@Saurabh7973/optimizing-flutter-apps-for-maximum-performance-97f6bd90bca2) <sub>Sep 23, 2024</sub>
-- [Ultimate Guide to Reduce App Size in Flutter — Volume 2](https://medium.com/@Saurabh7973/ultimate-guide-to-reduce-app-size-in-flutter-volume-2-105e0bb316a6) <sub>Sep 7, 2024</sub>
-- [Easiest Way to Reduce App Size in Flutter Apps — Volume 1](https://medium.com/@Saurabh7973/easiest-way-to-reduce-app-size-in-flutter-apps-cb3da18a089a) <sub>Aug 29, 2024</sub>
-<!-- BLOG-POST-LIST:END -->
+<!-- BLOG-POST-LIST:START -->- [The Claude Code Regression Rerouted My Flutter Workflow. The 4-Tool AI Stack I Use Now.](https://medium.com/@Saurabh7973/the-claude-code-regression-rerouted-my-flutter-workflow-the-4-tool-ai-stack-i-use-now-37e837fddc2d?source=rss-156728aecbd0------2) <sub>May 17, 2026</sub>- [Switching From My First Real Job](https://medium.com/@Saurabh7973/switching-from-my-first-real-job-e06abd39584d?source=rss-156728aecbd0------2) <sub>Aug 1, 2025</sub>- [Alumni Talk: The Journey from Seats to Stage](https://medium.com/@Saurabh7973/alumni-talk-the-journey-from-seats-to-stage-923a4b0d3f89?source=rss-156728aecbd0------2) <sub>Apr 16, 2025</sub>- [The Hidden Vulnerability: Security Practices Every Flutter Developer Must Know](https://medium.com/@Saurabh7973/the-hidden-vulnerability-security-practices-every-flutter-developer-must-know-5dff2e9eadac?source=rss-156728aecbd0------2) <sub>Mar 31, 2025</sub>- [A Loss is a Loss No Matter What!](https://medium.com/@Saurabh7973/a-loss-is-a-loss-no-matter-what-09a8cfcece3b?source=rss-156728aecbd0------2) <sub>Jan 16, 2025</sub><!-- BLOG-POST-LIST:END -->
 
 🎤 *Alumni Talk: The Journey from Seats to Stage* — invited speaker (Apr 2025)
 
