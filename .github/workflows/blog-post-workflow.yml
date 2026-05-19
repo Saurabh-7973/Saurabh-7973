@@ -1,13 +1,12 @@
 name: Latest blog post workflow
 
 # Auto-fetches latest Medium articles via RSS and updates README.
-# This keeps the profile looking active to AI sourcing agents and humans.
-# Runs weekly + on manual dispatch.
+# Keeps the profile looking active to AI sourcing agents and humans.
+# Runs weekly + on manual dispatch + on push to main.
 
 on:
   schedule:
-    # Every Monday at 02:00 UTC (07:30 IST)
-    - cron: "0 2 * * 1"
+    - cron: "0 2 * * 1"  # Every Monday 02:00 UTC (07:30 IST)
   workflow_dispatch:
   push:
     branches: [main]

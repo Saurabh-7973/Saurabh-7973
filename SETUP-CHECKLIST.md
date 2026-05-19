@@ -4,14 +4,14 @@
 
 ## 1️⃣ Update your GitHub bio (2 minutes)
 
-Go to <https://github.com/settings/profile> and replace the **Bio** field with one of these (every word is searchable):
+Go to <https://github.com/settings/profile> and replace the **Bio** field with:
 
-**Option A — recruiter-search-friendly *(151 chars, recommended)***
+**Recommended *(151 chars, recruiter-search-friendly)***
 ```
 Flutter Developer · Founder of Snapdrop · Mumbai, India · Open to remote/hybrid roles · Python + Fintech automation · See pinned repos
 ```
 
-**Option B — founder-forward *(159 chars)***
+**Alternative *(159 chars, founder-forward)***
 ```
 Founder @Snapdrop. Flutter Developer & Product Engineer in Mumbai. Building algo-trader & AxisCore. Open to full-time, contract & freelance. ✉️ in profile
 ```
@@ -26,16 +26,14 @@ Founder @Snapdrop. Flutter Developer & Product Engineer in Mumbai. Building algo
 
 ---
 
-## 2️⃣ Pin your 6 repos in this exact order (1 minute)
+## 2️⃣ Pin your 4–5 best repos (1 minute)
 
 Go to <https://github.com/Saurabh-7973> → click **"Customize your pins"**. Pin in this order — top-left first, since AI thumbnail extractors and humans both scan that direction:
 
 1. **Snapdrop** — your flagship founder project
 2. **algo-trader** — proves Python + systems thinking
 3. **AxisCore** — proves architecture chops
-4. **Saurabh-7973** — this profile repo (so `candidate.yaml` and `resume.json` are 1 click away)
-5. **UnsecuredAPIKeys.Lite** — security-adjacent contribution
-6. **cicd_test** — *(or skip — it's basic; you only have 5 strong repos and one weak. Pinning 5 is fine.)*
+4. **Saurabh-7973** — this profile repo (so `resume.json` / `candidate.yaml` are 1 click away)
 
 ---
 
@@ -81,13 +79,32 @@ Topics are how GitHub's own search, daily.dev, and many AI sourcing tools catego
 
 ---
 
+## 🎁 Bonus (optional, 5 min) — bulletproof stats with `lowlighter/metrics`
+
+The README's stats cards depend on the public Vercel deployment of `github-readme-stats`, which sometimes returns 503 when overloaded. To get **stats that can never go down** (FAANG-engineer-grade):
+
+1. Go to <https://github.com/settings/tokens> → **Generate new token (classic)**
+2. Name: `metrics`. Scopes: `read:user` (and `repo` if you want private repo stats). 90-day expiry.
+3. Copy the token. In this repo, go to **Settings → Secrets and variables → Actions**:
+   - **Secrets** tab → **New repository secret** → Name: `METRICS_TOKEN`, Value: paste the token
+   - **Variables** tab → **New repository variable** → Name: `METRICS_ENABLED`, Value: `true`
+4. Go to **Actions** tab → run the **Metrics** workflow once manually (or wait for the daily 3 AM run)
+5. After a successful run, `github-metrics.svg` appears in the repo. Add this line in the README's "GitHub at a glance" section:
+   ```html
+   <img alt="Saurabh's GitHub metrics" src="https://raw.githubusercontent.com/Saurabh-7973/Saurabh-7973/main/github-metrics.svg" />
+   ```
+
+Now your stats are a **static SVG file you control**, refreshed daily.
+
+---
+
 ## ✅ Done — what changes after this
 
 | Before | After |
 |---|---|
-| Bio: 1 line about your projects | Bio with your role, location, hire-status — picked up by search filters |
+| Bio: 1 line about your projects | Bio with role, location, hire-status — picked up by search filters |
 | 0 repo topics | 30+ targeted topics across 4 repos — searchable on GitHub, indexed by daily.dev / Glozo / Pin |
-| No pins | 4–5 pins ordered by signal strength |
+| No pins | 4 pins ordered by signal strength |
 | `resume.json` exists but undiscovered | Pinned profile repo surfaces it on landing |
 
 You now show up for these recruiter searches (real boolean queries used by sourcing tools):
@@ -97,4 +114,4 @@ You now show up for these recruiter searches (real boolean queries used by sourc
 - `flutter founding-engineer remote`
 - `figma-plugin developer mumbai`
 
-That's it. ~5 minutes total.
+That's it. ~5 minutes total (10 with the bonus).
