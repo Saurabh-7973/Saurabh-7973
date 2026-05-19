@@ -193,8 +193,8 @@ Issue tracking re-thought for small dev teams.
 <div align="center">
 
 <a href="https://github.com/Saurabh-7973">
-  <img height="170" alt="Saurabh's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=Saurabh-7973&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&cache_seconds=86400" />
-  <img height="170" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Saurabh-7973&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&cache_seconds=86400" />
+  <img height="170" alt="Saurabh's GitHub stats" src="https://denvercoder1-github-readme-stats.vercel.app/api?username=Saurabh-7973&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&cache_seconds=86400" />
+  <img height="170" alt="Top languages" src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=Saurabh-7973&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&cache_seconds=86400" />
 </a>
 
 <br>
